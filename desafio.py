@@ -97,7 +97,7 @@ def listar_usuarios(usuarios):
     
     print("\n ** Não foi encontrado nenhum usuário no sistema! **")
 
-def listar_contas(contas):
+def listar_contas(contas): 
     for conta in contas:
         linha = f"""\n
         ---------- CONTA ENCONTRADA -----------
